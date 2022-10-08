@@ -19,5 +19,5 @@ Get-ScheduledTask -TaskName ServerManager | Disable-ScheduledTask -Verbose
 
 ## Install Choco
 powershell -NoProfile -ExecutionPolicy Unrestricted -File "./install-choco.ps1"
-#powershell -NoProfile -ExecutionPolicy Unrestricted -File "./install-apps.ps1" 
+powershell -NoProfile -ExecutionPolicy Unrestricted -File "./install-apps.ps1" 
 # certutil -enterprise -f -v -AddStore Root dev.cer
