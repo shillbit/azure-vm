@@ -4,7 +4,7 @@ $choco_destination = 'install-choco.ps1'
 Invoke-WebRequest -Uri $choco_source -OutFile $choco_destination
  
 ## Download Install Apps Script
-$apps_source = 'https://raw.githubusercontent.com/pukauw/azure-vm/master/install-apps.ps1'
+$apps_source = 'https://raw.githubusercontent.com/shillbit/azure-vm/master/install-apps.ps1'
 $apps_destination = 'install-apps.ps1'
 
 # ## Download and Install Dev Cert
