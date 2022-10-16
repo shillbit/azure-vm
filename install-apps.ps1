@@ -1,5 +1,6 @@
 Get-ScheduledTask -TaskName ServerManager | Disable-ScheduledTask -Verbose
 C:\ProgramData\chocolatey\choco upgrade brave -y --limitoutput --params "ALLUSERS=1"
+C:\ProgramData\chocolatey\choco upgrade chrome -y --limitoutput --params "ALLUSERS=1"
 #C:\ProgramData\chocolatey\choco upgrade firefox -y --limitoutput --params "ALLUSERS=1"
 C:\ProgramData\chocolatey\choco upgrade 7zip -y --limitoutput --params "ALLUSERS=1"
 #C:\ProgramData\chocolatey\choco upgrade Putty -y --limitoutput --params "ALLUSERS=1"
